@@ -22,6 +22,6 @@ installed boost library in the directory
 
 used following command to compile this file
 
-g++ -I /usr/local/boost_1_61_0/ example.cpp -o example
+g++ -I /usr/local/boost_1_61_0/ boost_lib_starter.cpp -o example
 
 */
