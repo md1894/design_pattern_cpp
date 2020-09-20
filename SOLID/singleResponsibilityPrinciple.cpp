@@ -32,6 +32,7 @@ struct Journal{
     ********** separation of concerns **************
     */
     void save(const string& filename){
+        // file must be present
         fstream ofs(filename);
         for(auto i: entries)
             ofs << i << endl;
@@ -43,6 +44,7 @@ struct PersistanceManager{
     // if i want to change persistance logic
     // i will only update this
     static void save(const string& filename, const struct Journal& j){
+        // file must be present
         fstream ofs(filename);
         for(auto i: j.entries)
             ofs << i << endl;
