@@ -14,7 +14,7 @@ int main()
 
 /*
 
-downloaded the boost library boost_1_61_0.tar.bz2
+downloaded the boost library boost_1_74_0.tar.bz2
 extracted that file in the directory below
 
 installed boost library in the directory
@@ -22,6 +22,6 @@ installed boost library in the directory
 
 used following command to compile this file
 
-g++ -I /usr/local/boost_1_61_0/ boost_lib_starter.cpp -o example
+g++ -I /usr/local/boost_1_74_0/ boost_lib_starter.cpp -o example
 
 */
